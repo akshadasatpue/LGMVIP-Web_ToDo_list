@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My to do app</title>
+    <link rel ="stylesheet" href="todolist.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <!-- these is main container div -->
+    <div id="container" >
+        <!-- these div is for title bar -->
+        <div id="titlediv">
+            <p id="title">DAILY THINGS <span>TO DO</span></p>
+        </div>
+        
+        <!-- these div is for adding the task -->
+        <div id="taskinput">
+            <input type="text" id="task" placeholder="Enter task to do">
+            <select id="timing">
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+                <option value="Night">Night</option>
+            </select>
+            <button id="addtask">ADD</button>
+        </div>
+        
+        <!-- these div is for morning task display -->
+        <div class="display" id="morningtask">
+            <table id="morningtable">
+                <thead>
+                    <tr class="tablehead">
+                        <td class="headings1">MORNING TASK</td>
+                        <td class="headings2">Clear</td>
+                    </tr>
+                </thead>
+                <tbody id="morningtablebody">
+
+                </tbody>
+            </table>
+        </div>
+
+        <!-- these div is for afternoon task display -->
+        <div class="display" id="afternoontask">
+            <table id="afternoontable">
+                <thead>
+                    <tr class="tablehead">
+                        <td class="headings1">AFTERNOON TASK</td>
+                        <td class="headings2">Clear</td>
+                    </tr>
+                </thead>
+                <tbody id="afternoontablebody">
+
+                </tbody>
+            </table>
+        </div>
+
+        <!-- these div is for evening task display -->
+        <div class="display" id="eveningtask">
+            <table id="eveningtable">
+                <thead>
+                    <tr class="tablehead">
+                        <td class="headings1">EVENING TASK</td>
+                        <td class="headings2">Clear</td>
+                    </tr>
+                </thead>
+                <tbody id="eveningtablebody">
+
+                </tbody>
+            </table>
+        </div>
+
+        <!-- these div is for night task display -->
+        <div class="display" id="nighttask">
+            <table id="nighttable">
+                <thead>
+                    <tr class="tablehead">
+                        <td class="headings1">NIGHT TASK</td>
+                        <td class="headings2">Clear</td>
+                    </tr>
+                </thead>
+                <tbody id="nighttablebody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+<script src="todolist.js">
+
+   
+
+</script>
